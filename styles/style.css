@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+div,
 p,
 h1,
 h2 {
@@ -56,11 +57,20 @@ h2 {
 .text-primary {
   color: #ec2232;
 }
+.text-16 {
+  font-size: 16px;
+}
+.text-18 {
+  font-size: 18px;
+}
 .text-30 {
   font-size: 30px;
 }
 .text-100 {
   font-size: 100px;
+}
+.text-90 {
+  font-size: 90px;
 }
 .text-110 {
   font-size: 110px;
@@ -86,9 +96,6 @@ h2 {
   min-height: 80vh;
 }
 .banner h1 {
-  font-family: ITC Avant Garde Gothic Std;
-  font-size: 100px;
-  font-weight: 600;
   line-height: 141px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -118,4 +125,17 @@ h2 {
   font-weight: 300;
   padding-left: 570px;
   width: 428px;
+}
+
+.expert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 130px;
+  margin-top: 130px;
+}
+.expert-grid-items {
+  border-right: 1px solid #c4c4c4;
+}
+#remove-border {
+  border-right: none;
 }
